@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.formulario {
+    width: 600px;
+    margin: 30px auto 0 auto;
+    position: relative;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.atras {
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    top: 70px;
+    left: 20px;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.atras:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-long-arrow-alt-left {
+    color: white;
+    margin-right: 5px;
+}
+
+form {
+    margin: 0 auto;
+    font-size: .8rem;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: .8rem;
+    border: 1px solid rgb(49, 43, 43);
+}
+
+.guardar {
+    display: inline;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+input[type=submit] {
+    font-size: .85rem;
+    color: white;
+    font-weight: bold;
+    padding: .8rem;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+.insertado {
+    position: fixed;
+    margin: 0 auto;
+    top: 45%;
+    left: 30%;
+    width: 40%;
+    height: 10%;
+    color: white;
+    background-color: green;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.no-insertado {
+    position: fixed;
+    margin: 0 auto;
+    top: 45%;
+    left: 30%;
+    width: 40%;
+    height: 10%;
+    color: white;
+    background-color: red;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.opciones-eliminar {
+    margin-top: 30px;
+}
